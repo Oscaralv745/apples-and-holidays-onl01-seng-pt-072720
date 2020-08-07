@@ -58,6 +58,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash[season] = {holiday_name => supply_array}
+  holiday_hash
 end
 
 def all_holidays_with_bbq(holiday_hash)
